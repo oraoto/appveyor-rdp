@@ -1,0 +1,13 @@
+version: "{build}"
+
+image: Visual Studio 2017
+
+configuration:
+  - release
+
+environment:
+  matrix:
+    - PYTHON: "C:\\Python37-x64"
+
+build_script:
+  - build.bat
